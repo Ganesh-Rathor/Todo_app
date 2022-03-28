@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <main>
+    <section id="head">
+      <h1>TODO</h1>
+      <img src="images/icon-moon.svg" alt="moon" class="theme moon">
+      <img src="images/icon-sun.svg" alt="sun" class="theme sun">
+    </section>
+
+    <section id="input" class="input">
+      <input type="checkbox" id="inCheck">
+      <input type="text" placeholder="create a new todo..." id="inText">
+    </section>
+
+    <section id="list">
+      <div id="items" class="items-list">
+        <div class="item">
+          <input type="checkbox">
+          <p id="work">Complete java tutorial</p>
+        </div>
+      </div>
+      <footer>
+        <p class="re"><span  id="remain">4</span> item left..</p>
+        <p><span id="all">All</span>
+        <span id="active" >Active</span>
+        <span id="complete">Completed</span></p>
+        <p id="delete">clear Complete</p>
+
+      </footer>
+    </section>
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ganesh Rathor</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
